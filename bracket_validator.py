@@ -41,7 +41,7 @@ def validate(js):
 
     # If everything is closed correctly, we should end up
     # with an empty stack
-    return not stack and True or False
+    return not stack
 
 
 class Tests(unittest.TestCase):
